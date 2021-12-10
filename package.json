@@ -1,0 +1,24 @@
+{
+  "name": "advent-of-code-clock",
+  "version": "1.0.0",
+  "description": "A terminal clock based on 2021's Advent of Code problem, Day 08.",
+  "type": "module",
+  "main": "aoc-clock.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexanderWebster/advent-of-code-clock.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlexanderWebster/advent-of-code-clock/issues"
+  },
+  "homepage": "https://github.com/AlexanderWebster/advent-of-code-clock#readme",
+  "dependencies": {
+    "ansi-escapes": "^5.0.0",
+    "chalk": "^5.0.0",
+    "commander": "^8.3.0",
+    "lodash-es": "^4.17.21",
+    "strip-ansi": "^7.0.1"
+  }
+}
