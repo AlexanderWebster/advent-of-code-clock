@@ -52,7 +52,7 @@ Options:
   -f, --format <type>     Display 24 or 12 hour format (default: "24")
   -p, --precision <type>  Display seconds or minutes precision (default: "minutes")
   -c, --color <type>      Specify two Chalk.js colors for dots,digits (default: "grey,red")
-  -k, --kubrick           Display clock in kubrick style (reduced performance when -p 'seconds')
+  -k, --kubrick           Display clock in Kubrick style
   -h, --help              display help for command
   ```
 

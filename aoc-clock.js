@@ -21,7 +21,7 @@ program
   .option("-f, --format <type>", `Display ${chalk.yellow('24')} or ${chalk.yellow('12')} hour format`, "24")   
   .option("-p, --precision <type>", `Display ${chalk.yellow('seconds')} or ${chalk.yellow('minutes')} precision`, "minutes")
   .option("-c, --color <type>", `Specify two Chalk.js colors for ${chalk.yellow('dots,digits')}`, "grey,red")
-  .option("-k, --kubrick", `Display clock in ${chalk.yellow('kubrick')} style (reduced performance when -p 'seconds')`)
+  .option("-k, --kubrick", `Display clock in ${chalk.yellow('kubrick')} style`)
   .option("-r, --rand", "Randomizes the ascii chars assigned to each segment periodically", false);
 program.parse(process.argv);
 
