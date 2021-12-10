@@ -7,15 +7,13 @@ A terminal clock based on Day 8's problem from 2021's Advent of Code.
 ![example](./assets/aoc-clock.gif)
 
 # Introduction
-The Advent of Code problem that inspired this toy project was particulary nostalgia-inducing for me. Defining the rules for decoding the segment digits reminded me of codecracking books I read as a child.
+The [Advent of Code problem](https://adventofcode.com/2021/day/8) that inspired this toy project was particulary nostalgia-inducing for me. Defining the rules for decoding the segment digits reminded me of codecracking books I read as a child.
 
 I had a lot of fun [solving the problem](https://github.com/AlexanderWebster/advent-of-code-2021/tree/main/day-08-seven-segment-search), so I thought it would be even more fun to create a seven-segment display clock for the terminal.
 
 I kept the format of the clock and its segments true to the original with one exception - you can optionally style the segments with the █ character. I felt that this gave the digits of the clock a neat retro-future, [Stanley Kubrick](https://en.wikipedia.org/wiki/Stanley_Kubrick_filmography)-esque look.
 
 You can also enable periodic randomization of the ascii characters representing the segments, just like the Aoc problem.
-
-See [Advent of Code - Day 08](https://adventofcode.com/2021/day/8) for this project's inspiration :)
 
 # Table of Contents
 * [Use aoc-clock](#use-aoc-clock)
