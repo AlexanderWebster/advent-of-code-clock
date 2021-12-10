@@ -60,9 +60,11 @@ Options:
   ```
 
 ## On Customization
-All text coloring is done with the [Chalk](https://github.com/chalk/chalk) library. You can find all available colors there. Note: I would have preferred to use [Picocolors](https://github.com/alexeyraspopov/picocolors) for the speed/size benefits, but at the time of this writing, they do not appear to support retrieving and applying colors dynamically.
+All text coloring is done with the [Chalk](https://github.com/chalk/chalk) library. You can find all available colors there. 
 
-You can stack 'Kubrick'-mode and Chalk's backgound colors to achieve a neat visually styled clock.
+_Note: I would have preferred to use [Picocolors](https://github.com/alexeyraspopov/picocolors) for the speed/size benefits, but at the time of this writing, they do not appear to support retrieving and applying colors dynamically._
+
+You can stack 'Kubrick'-mode and Chalk's backgound colors to achieve a neat visually-styled clock.
 
 ## Credits
 Special thanks to: 
