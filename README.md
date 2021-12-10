@@ -1,12 +1,17 @@
 # Advent of Code Clock (aoc-clock)
+[![macOS](https://svgshare.com/i/ZjP.svg)](https://svgshare.com/i/ZjP.svg) [![Linux](https://svgshare.com/i/Zhy.svg)](https://svgshare.com/i/Zhy.svg) 
+ [![made-with-javascript](https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg)](https://www.javascript.com)
+
+A terminal clock based on Day 8's problem from 2021's Advent of Code.
+
 ![example](./assets/aoc-clock.gif)
 
 # Introduction
-I thought it would be fun to put together a seven-segment terminal clock based on a 2021 AoC problem. 
+The Advent of Code problem that inspired this toy project was particulary nostalgia-inducing for me. Defining the rules for decoding the segment digits reminded me of codecracking books I read as a child.
 
-I found the problem particulary fun and nostalgic. Defining the rules for decoding the segment digits reminded me of codecracking books I read as a child. My AoC solution for that day can be found on my Github [here](https://github.com/AlexanderWebster/advent-of-code-2021/tree/main/day-08-seven-segment-search).
+I had a lot of fun [solving the problem](https://github.com/AlexanderWebster/advent-of-code-2021/tree/main/day-08-seven-segment-search), so I thought it would be even more fun to create a seven-segment display clock for the terminal.
 
-I kept the format of the clock and its segments "true" to the original with one exception - you can optionally style the segments with the █ character. I felt that this gave the digits of the clock a neat retro-future, [Stanley Kubrick](https://en.wikipedia.org/wiki/Stanley_Kubrick_filmography)-esque look.
+I kept the format of the clock and its segments true to the original with one exception - you can optionally style the segments with the █ character. I felt that this gave the digits of the clock a neat retro-future, [Stanley Kubrick](https://en.wikipedia.org/wiki/Stanley_Kubrick_filmography)-esque look.
 
 You can also enable periodic randomization of the ascii characters representing the segments, just like the Aoc problem.
 
